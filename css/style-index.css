@@ -1,0 +1,22 @@
+
+* {
+    font-family: verdana
+}
+
+h1 {
+    font-size: 50px;
+    color: palevioletred
+}
+
+img.lasagne {
+    height: auto;
+    width: 200px;
+}
+img.halloumi {
+    height: auto;
+    width: 200px;
+}
+img.cake {
+    height: auto;
+    width: 200px;
+}
