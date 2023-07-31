@@ -1,0 +1,18 @@
+
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: palevioletred;
+    font-size: 50px;
+}
+
+.description {
+    text-align: center;
+}
+
+ul,
+ol {
+    background-color: rgb(253,221,230);
+}
