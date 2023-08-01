@@ -5,17 +5,54 @@
 }
 
 h1 {
-    color: palevioletred;
     font-size: 50px;
+    color: palevioletred;
+    text-align: center;
+    border: 5px dotted purple;
+    width: 700px;
+    margin: auto;
 }
 
-.description {
-    text-align: center;
+button {
+    margin-top: 10px;
+}
+img {
+    height: 200px;
+    width: auto;
+}
+
+.info, 
+.image {
+    display: inline-block;
+}
+.info {
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.ing {
+    display: inline-block;
+}
+
+.ingredients {
+    width: 200px;
+    display: inline-block;
+}
+
+.filling {
+    margin-left: -150px;
+}
+
+.sauce {
+    vertical-align: top;
 }
 
 ul,
 ol {
     background-color: rgb(253,221,230);
+    padding: 3px;
+    border: 2px dashed grey;
+    border-radius: 25px;
 }
 
 ul {
@@ -26,7 +63,12 @@ ul {
     border-radius: 25px;
 }
 
-ul li {
-    padding: 2px;
+ol {
+    width: 800px;
+}
+
+li {
+    padding: 4px;
+    margin-left: 25px;
 }
 
